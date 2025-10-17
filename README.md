@@ -6,7 +6,6 @@ When adding a button with a SymbolImageSource as ImageSource throws a `NullRefer
 Note that the exception does not occur if you add the SymbolImageSource in code, only when adding it in XAML.
 
 ## Steps to Reproduce
-A sample .NET MAUI application is available at https://github.com/StefanCuypers/FluentUIMauiNullReferenceException
 There are 2 MAUI apps in the solution.
 FluentUIMauiNullReferenceExceptions : if you run this on Windows Machine, it will throw a `NullReferenceException` when loading the XAML.
 WorkingWhenAddingICode : here the SymbolImageSource is added in code, and this works fine.
